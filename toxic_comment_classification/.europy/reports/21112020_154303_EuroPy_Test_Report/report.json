@@ -1,0 +1,23 @@
+{
+    "title": "EuroPy Test Report",
+    "test_results": {},
+    "model_card": {
+        "details": {
+            "title": "EuroPy Test Report",
+            "organization": null,
+            "authors": [],
+            "emails": [],
+            "model_date": "2020-11-21 15:43:03.401453",
+            "model_version": "--",
+            "citation_details": "--",
+            "model_license": "--",
+            "model_url": "--",
+            "data_license": "--",
+            "data_url": "--",
+            "description": "--"
+        },
+        "parameters": {}
+    },
+    "figures": [],
+    "timestamp": "2020-11-21 15:43:03.422754"
+}
