@@ -1,0 +1,72 @@
+{
+    "title": "EuroPy Test Report",
+    "test_results": {},
+    "model_card": {
+        "details": {
+            "title": "Toxic Comment Classification with BERT",
+            "organization": "Northwestern University",
+            "authors": [
+                "Matthew Alvarez",
+                "Jenny Lam",
+                "Sundar Rajar",
+                "Blaine Rothrock"
+            ],
+            "emails": [
+                "matt@email.com",
+                "jenny@email.com",
+                "sundar@email.com",
+                "blaine@email.com"
+            ],
+            "model_date": "2020-11-15 10:20:56.836960",
+            "model_version": "0.0.1",
+            "citation_details": "@cite{}",
+            "model_license": "Apache License Version 2.0",
+            "model_url": "http://sample.com",
+            "data_license": "Apache License Version 2.0",
+            "data_url": "https://www.kaggle.com/c/jigsaw-toxic-comment-classification-challenge/data",
+            "description": "--"
+        },
+        "parameters": {
+            "global": {
+                "pre_trained_model": "bert-base-uncased",
+                "max_seq_len": 128,
+                "train_percent": 0.1,
+                "batch_size": 32,
+                "num_epochs": 1,
+                "label_cols": [
+                    "toxic",
+                    "severe_toxic",
+                    "obscene",
+                    "threat",
+                    "insult",
+                    "identity_hate"
+                ],
+                "test_size": 0.1,
+                "learning_rate": 2e-05
+            },
+            "tokenize_sentences": {
+                "max_seq_len": 128
+            },
+            "create_dataset": {
+                "batch_size": 32,
+                "num_epochs": 1,
+                "train": false
+            },
+            "train": {
+                "train_steps_per_epoch": 4487,
+                "val_steps_per_epoch": 498,
+                "num_epochs": 1,
+                "label_cols": [
+                    "toxic",
+                    "severe_toxic",
+                    "obscene",
+                    "threat",
+                    "insult",
+                    "identity_hate"
+                ]
+            }
+        }
+    },
+    "figures": [],
+    "timestamp": "2020-11-22 12:31:22.705215"
+}
