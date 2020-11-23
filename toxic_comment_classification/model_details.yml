@@ -1,0 +1,19 @@
+title: Toxic Comment Classification with BERT
+organization: Northwestern University
+authors:
+  - Matthew Alvarez 
+  - Jenny Lam 
+  - Sundar Rajar 
+  - Blaine Rothrock
+emails:
+  - matt@email.com
+  - jenny@email.com
+  - sundar@email.com
+  - blaine@email.com
+model_date: 2020-11-15 10:20:56.836960
+model_version: 0.0.1
+citation_details: "@cite{}"
+model_license: Apache License Version 2.0
+model_url: http://sample.com
+data_license: Apache License Version 2.0
+data_url: https://www.kaggle.com/c/jigsaw-toxic-comment-classification-challenge/data

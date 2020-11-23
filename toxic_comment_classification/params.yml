@@ -1,0 +1,15 @@
+global:
+    pre_trained_model: 'bert-base-uncased'
+    max_seq_len: 128
+    train_percent: 0.1
+    batch_size: 32
+    num_epochs: 1
+    label_cols:
+      - toxic
+      - severe_toxic
+      - obscene
+      - threat
+      - insult
+      - identity_hate
+    test_size: 0.1
+    learning_rate: 0.00002

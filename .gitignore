@@ -1,5 +1,7 @@
 data/
 models/
+.europy/
+.vscode/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
